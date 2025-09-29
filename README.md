@@ -31,28 +31,6 @@ Hasil scraping (semua berita dan berita ekonomi) kemudian ditampilkan dalam anta
 
 ---
 
-## Struktur Proyek
-
-Proyek ini disusun dengan struktur yang modular untuk kemudahan pemeliharaan:
-
-/scrapingBeritaEkonomi/
-├── static/
-│   └── css/
-│       └── style.css         # File styling untuk antarmuka
-├── templates/
-│   └── index.html            # Template HTML untuk halaman utama
-├── app.py                    # File utama aplikasi Flask (entry point)
-├── scraper_all.py            # Logika utama untuk orkestrasi scraper & klasifikasi
-├── parser_detik.py           # Parser spesifik untuk Detik Lampung
-├── parser_rmol.py            # Parser spesifik untuk RMOL Lampung
-├── parsersAntara.py          # Parser spesifik untuk Antara News
-├── lampost_parser.py         # Parser spesifik untuk Lampost
-├── parser_radarlampung.py    # Parser spesifik untuk Radar Lampung
-├── model_berita_svm2.pkl     # File model Machine Learning
-├── requirements.txt          # Daftar dependensi Python
-└── README.md                 # Dokumentasi ini
-
----
 
 ## Panduan Instalasi dan Penggunaan
 
