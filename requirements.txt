@@ -1,0 +1,10 @@
+nltk
+scikit-learn==1.5.2
+pandas
+joblib
+beautifulsoup4
+openpyxl
+flask
+selenium
+webdriver-manager
+streamlit

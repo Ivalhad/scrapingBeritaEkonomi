@@ -1,0 +1,9 @@
+# Ignore chromedriver binaries and python env
+chromedriver.exe
+chromedriver-win64/
+__pycache__/
+.venv/
+.env
+*.pyc
+*.pkl
+.scrap
